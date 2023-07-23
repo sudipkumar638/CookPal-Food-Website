@@ -1,0 +1,80 @@
+.heroContainer{
+    height:50vh;
+    position: relative;
+    object-fit: cover;
+  
+    @media (max-width:400px)
+    {
+        height:35vh;
+    }
+    img{
+        height:50vh;
+        background-position: top;
+        width: 100%;
+       
+           padding:1rem;
+        
+        @media (max-width:400px)
+        {
+            height:35vh;
+        }
+       
+    }
+    .herotext{
+        position: absolute;
+        top:20%;
+        left:5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 1rem;
+        padding-left: 1rem;
+        @media (max-width:400px)
+        {
+           top:20%;
+           
+        }
+       .heroHeading{
+        color: #DC582A;
+
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 127%; /* 30.48px */
+        @media (max-width:400px)
+        {
+           
+            font-size: 1.2rem;
+        }
+       }
+       .heroDesc{
+        color: #FFF;
+        width: 80%;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 127%; /* 50.8px */
+        @media (max-width:400px)
+        {
+            font-size: 1.7rem;
+        }
+        
+       }
+       .chef{
+        color: #FFF;
+       
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 127%; /* 25.4px */
+        @media (max-width:400px)
+        {
+            font-size: 1rem;
+        }
+       }
+    }
+
+   
+ 
+   
+}

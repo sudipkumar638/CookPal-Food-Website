@@ -1,0 +1,28 @@
+.filterbuttonsection{
+    height:5rem;
+    width:84vw;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    @media (min-width:1200px)
+    {
+       
+        height:4rem;
+        width:15vw;
+       
+    }
+    @media (max-width:800px)
+    {
+       
+        height:4rem;
+        width:84vw;
+       
+    }
+
+   
+   
+}

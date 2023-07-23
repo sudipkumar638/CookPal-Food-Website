@@ -1,0 +1,43 @@
+.searchBarSection{
+    height: 10rem;
+  
+    padding: 1.5rem;
+
+    h1{
+      margin-bottom: 1.5rem;
+      @media(max-width:400px)
+      {
+        font-size: 1.5rem;
+      }
+    }
+    input{
+       height:2rem;
+       width:90%;
+       @media(max-width:400px)
+      {
+        width:100%;
+      }
+       margin-bottom: 2rem;
+       outline: none;
+       border: none;
+       padding: 1rem;
+       background-color: #F3F3F3;
+
+       
+    }
+
+    span{
+        button{
+            height:2rem;
+            width: 5rem;
+            padding: auto;
+            outline: none;
+            border: none;
+            color:white;
+            background-color: #509E2F;
+            cursor: pointer;
+        }
+    }
+
+    
+}

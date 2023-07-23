@@ -1,0 +1,53 @@
+.navbar{
+    height: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 1.5rem;
+    
+    .logosection{
+        img{
+            height:3.5rem;
+            @media (max-width:400px)
+            {
+                height:2.5rem;
+
+
+            }
+        }
+
+    }
+
+    .menusection{
+        ul{
+            list-style: none;
+            font-size: 1.2rem;
+
+            display: flex;
+            li{
+                margin-left: 4rem;
+                cursor: pointer;
+                @media (max-width:600px)
+                {
+                    margin-left: 2rem;
+                    font-size: 0.8rem;
+                }
+                @media (max-width:400px)
+                {
+                    margin-left: 0.5rem;
+                    font-size: 0.8rem;
+                }
+                &:hover{
+                    color: #509E2F;
+                    
+                }
+            }
+
+           
+           
+
+           
+        }
+    }
+}

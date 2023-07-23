@@ -1,0 +1,72 @@
+.filterbuttons{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+
+   
+
+    @media (max-width:500px)
+    {
+      flex-direction: column;
+      margin-top: 2rem;
+
+    }
+}
+
+.displaySection{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.lesscards{
+  display: flex;
+ flex-wrap: wrap;
+ justify-content:flex-start;
+ align-items: center;
+ @media (max-width:690px)
+ {
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ }
+}
+
+.ratingsection{
+  
+  .ratings{
+    h1{
+      font-size: 1.2rem;
+    }
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left:3rem;
+  margin: 2rem;
+  @media (max-width:600px)
+  {
+    margin: 0 0 1rem 0;
+    padding-left:1.5rem;
+  }
+  .checkboxes{
+    span{
+     
+      font-size: 1rem;
+      input{
+       
+        color:Green;
+        outline: none;
+      }
+    }
+  }
+}
+
+.c2{
+  margin-left: 1rem;
+}
+
+
